@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web de Prueba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Página Web de Prueba</h1>
+            <p class="subtitle">Esta es una página de demostración con HTML, CSS y JavaScript separados.</p>
+        </header>
+        
+        <div class="main-content">
+            <div class="card">
+                <div class="card-header">HTML5</div>
+                <div class="card-body">
+                    <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web.</p>
+                    <ul class="features">
+                        <li>Estructura semántica</li>
+                        <li>Formularios y botones</li>
+                        <li>Elementos multimedia</li>
+                        <li>Accesibilidad básica</li>
+                        <li>Meta etiquetas para responsive design</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">CSS3</div>
+                <div class="card-body">
+                    <p>CSS (Cascading Style Sheets) se utiliza para dar estilo a documentos HTML.</p>
+                    <ul class="features">
+                        <li>Diseño responsive</li>
+                        <li>Transiciones y animaciones</li>
+                        <li>Variables CSS personalizadas</li>
+                        <li>Efectos de sombra y gradientes</li>
+                        <li>Diseño de tarjetas modernas</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">JavaScript</div>
+                <div class="card-body">
+                    <p>JavaScript añade interactividad a las páginas web.</p>
+                    <ul class="features">
+                        <li>Manipulación del DOM</li>
+                        <li>Event listeners</li>
+                        <li>Animaciones dinámicas</li>
+                        <li>Generación de contenido</li>
+                        <li>Manipulación de estilos CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <button class="btn" id="counterBtn">Aumentar Contador</button>
+            <button class="btn btn-outline" id="changeColorBtn">Cambiar Color</button>
+            <button class="btn btn-accent" id="messageBtn">Mostrar Mensaje</button>
+        </div>
+        
+        <div class="interactive-area">
+            <h2>Área Interactiva</h2>
+            <p>Prueba las diferentes funcionalidades implementadas con JavaScript:</p>
+            
+            <div class="counter" id="counterDisplay">0</div>
+            
+            <div class="color-box" id="colorBox"></div>
+            
+            <div class="slider-container">
+                <input type="range" min="0" max="100" value="50" class="slider" id="sizeSlider">
+                <p>Desliza para cambiar el tamaño del cuadrado: <span id="sliderValue">50</span>%</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Página de prueba creada con HTML, CSS y JavaScript</p>
+            <p>Fecha de generación: 7 de junio de 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
